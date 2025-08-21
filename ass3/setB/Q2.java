@@ -22,11 +22,11 @@ class Q2
 		{
 			if(!checkName(name))
 			{
-				throw new NameValidationException("\nName is Invalid");
+				throw new NameValidationException("Name is Invalid");
 			}
 			else
 			{
-				System.out.println("\nName is valid");
+				System.out.println("Name is valid");
 			}
 		}
 		catch(NameValidationException e)
